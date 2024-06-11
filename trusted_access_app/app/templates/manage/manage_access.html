@@ -1,0 +1,16 @@
+<link rel="stylesheet" type="text/css" href="static/css/index.css">
+{% extends "base.html" %}
+
+{% block content %}
+
+    <div class="button-container">
+    <div class="center-button">
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUJcmljayByb2xs" class="button is-primary is-custom">View Access</a>
+    </div>
+
+    <div class="center-button">
+        <a href="{{ url_for('manage.give_access') }}" class="button is-primary is-custom">Give Access</a>
+    </div>
+</div>
+
+{% endblock %}

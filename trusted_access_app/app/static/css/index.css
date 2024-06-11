@@ -1,0 +1,40 @@
+/* Center the button container */
+.center-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%; /* Ensure this covers the full height of the parent container */
+    margin-top: 0; /* Adjust this as needed */
+}
+
+/* Style the button to be a big square */
+.button.is-custom {
+    font-size: 1.5rem; /* Adjust font size as needed */
+    width: 300px; /* Set the width of the button */
+    height: 300px; /* Set the height of the button */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none; /* Remove border if any */
+    border-radius: 10px; /* Ensure the button is square, not rounded */
+}
+
+.button-container {
+    background-color: #e8e6e6; /* Light grey background color */
+    padding: 20px; /* Padding around the buttons */
+    border-radius: 10px; /* Optional: Rounded corners */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Space between buttons */
+    width: 500px; /* Set the width of the container */
+    margin: 0 auto; /* Center the container */
+}
+.button.is-custom div {
+    margin: 5px 0; /* Space between the text and the icon */
+}
+
+.button.is-custom i {
+    font-size: 2rem; /* Adjust icon size as needed */
+}

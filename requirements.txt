@@ -1,9 +1,1 @@
-appdirs
-click
 Flask
-itsdangerous
-Jinja2
-packaging
-pyparsing
-six
-Werkzeug

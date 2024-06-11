@@ -1,0 +1,24 @@
+<link rel="stylesheet" type="text/css" href="static/css/index.css">
+{% extends "base.html" %}
+
+{% block content %}
+
+
+<!-- Centered button -->
+<div class="button-container">
+    <div class="center-button">
+        <a href="{{ url_for('manage.manage_access') }}" class="button is-primary is-custom">
+            <div>Manage Access</div>
+            <div><i class="fas fa-user"></i></div>
+        </a>
+    </div>
+
+    <div class="center-button">
+        <a href="https://www.youtube.com/watch?v=Ue2UH6a3X4Q&pp=ygUbaXQncyBub3QgbG9va2luZyBnb29kIGJyZXYg" class="button is-primary is-custom">
+            Access an Account
+            <i class="fa fa-key" aria-hidden="true"></i>
+        </a>
+    </div>
+</div>
+
+{% endblock %}

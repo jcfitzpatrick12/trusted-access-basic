@@ -17,10 +17,13 @@ WORKDIR /app
 RUN git clone https://github.com/jcfitzpatrick12/trusted-access-basic.git
 
 # set the working directory as the cloned repo
-WORKDIR /home/trusted-access-basic
+WORKDIR /app/trusted-access-basic
 
 # Install any needed packages specified in requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
+
+# set the working directory as the cloned repo
+WORKDIR /app/trusted-access-basic/trusted_access_app
 
 # Make port 5000 available to the the world outside this container
 EXPOSE 5000

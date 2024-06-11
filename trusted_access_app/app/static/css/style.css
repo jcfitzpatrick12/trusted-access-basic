@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+
+/*.center-button {*/
+/*  display: flex;*/
+/*  justify-content: center;*/
+/*  align-items: center;*/
+/*  height: 100%;*/
+/*  margin-top: 20px;*/
+/*}*/
+.page-header-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px; /* Space between the header and the next section */
+
+}
+
+.page-header{
+    background-color: #007B32; /* Light grey background color */
+    padding: 20px; /* Padding around the buttons */
+    border-radius: 10px; /* Optional: Rounded corners */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Space between buttons */
+    width: 500px; /* Set the width of the container */
+    height: 70px;
+    margin: 0 auto; /* Center the container */
+}
+
+body {
+    background-color: #F0F0F0;
+}
+
+
+.button.is-custom {
+    background-color: #007B32;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.button.is-custom:hover {
+    background-color: #015e27;
+    color: #ffffff;
+}
+
+.help-button {
+    position: absolute;
+    top: 100%; /* Position it below the header */
+    right: 0; /* Align it to the right */
+    margin-top: 10px; /* Space between the header and the button */
+}
+
+.button.is-help{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none; /* Remove border if any */
+    border-radius: 10px; /* Ensure the button is square, not rounded */
+    background-color: #007B32;
+    color: #ffffff;
+    text-decoration: none;
+}

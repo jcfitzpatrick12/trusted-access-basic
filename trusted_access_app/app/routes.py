@@ -1,6 +1,7 @@
 from flask import current_app as app
+from flask import render_template
 
-@app.route('/index.html')
+@app.route('/')
 def index():
-    return "Hello Reboot2024!"
+    return render_template('index.html', message="Hello Reboot2024!")
 
