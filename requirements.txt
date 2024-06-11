@@ -3,7 +3,6 @@ click
 Flask
 itsdangerous
 Jinja2
-MarkupSafe
 packaging
 pyparsing
 six
