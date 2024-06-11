@@ -28,3 +28,6 @@ WORKDIR /app/trusted-access-basic/trusted_access_app
 # Make port 5000 available to the the world outside this container
 EXPOSE 5000
 
+# run the web server auto on startup
+CMD ["python3", "run.py"]
+
